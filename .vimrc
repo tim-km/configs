@@ -14,8 +14,7 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 
-Plug 'morhetz/gruvbox'
-Plug 'crusoexia/vim-monokai'
+Plug 'flazz/vim-colorschemes'
 
 call plug#end()
 
@@ -48,9 +47,9 @@ set incsearch
 set cursorline
 
 set background=dark
-colorscheme monokai
 set t_Co=256
 set termguicolors
+colorscheme alduin
 
 " allow to paste text from other windows
 set clipboard=unnamedplus
