@@ -1,0 +1,29 @@
+configuration {
+
+	modi: "drun,ssh";
+	font: "Source Code Pro 14";
+	show-icons: true;
+	icon-theme: "Papirus";
+    display-drun: "";
+	columns: 1;
+
+	separator-style: "solid";
+
+	lines: 10;
+	fixed-num-lines: true;
+
+}
+
+#entry {
+    margin: 25;
+}
+
+#element {
+    padding: 25;
+    background-color: #efefef;
+}
+
+#element.selected {
+    background-color: #c1c1c1;
+}
+
