@@ -1,6 +1,3 @@
-# If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
-
 # Path to your oh-my-zsh installation.
 export ZSH="/home/tim/.oh-my-zsh"
 
@@ -84,6 +81,11 @@ export EDITOR='vim'
 
 # Display Java AWT applications properly under wayland
 export _JAVA_AWT_WM_NONREPARENTING=1
+
+# Qt apps under wayland
+#export QT_QPA_PLATFORM=wayland-egl
+#export QT_WAYLAND_FORCE_DPI=physical
+#export QT_WAYLAND_DISABLE_WINDOWDECORATION=1
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
