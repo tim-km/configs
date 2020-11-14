@@ -1,17 +1,36 @@
 configuration {
-
 	modi: "drun,ssh";
-	font: "Source Code Pro 14";
+
+	font: "Iosevka Term 15";
+
 	show-icons: true;
 	icon-theme: "Papirus";
-    display-drun: "";
-	columns: 1;
 
+    display-drun: "";
 	separator-style: "solid";
 
-	lines: 10;
+    width: 30;
+	columns: 1;
+	lines: 5;
 	fixed-num-lines: true;
+    spacing: 0;
+}
 
+* {
+    background-color: #333333;
+    border-color: #242424;
+    text-color: #ffcb85;
+    margin: -1px;
+}
+
+#listview {
+    border-color: #ffcb85;
+    border: 1px 5px 5px 5px;
+}
+
+#inputbar {
+    border-color: #ffcb85;
+    border: 5px 5px 1px 5px;
 }
 
 #entry {
@@ -20,10 +39,10 @@ configuration {
 
 #element {
     padding: 25;
-    background-color: #efefef;
+    border: 1px 0 0 0;
+    background-color: #333333;
 }
 
 #element.selected {
-    background-color: #c1c1c1;
+    background-color: #242424;
 }
-

@@ -14,8 +14,8 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'crusoexia/vim-monokai'
-" latex editing
-Plug 'lervag/vimtex'
+" fzf plugin
+Plug 'junegunn/fzf.vim'
 
 call plug#end()
 
@@ -27,7 +27,7 @@ set relativenumber
 
 set tabstop=4
 set shiftwidth=4
-set expandtab
+set noexpandtab
 
 set autoindent
 set smartindent
@@ -47,9 +47,9 @@ set incsearch
 
 set cursorline
 
-set background=dark
-set t_Co=256
-set termguicolors
+"set background=dark
+"set t_Co=256
+"set termguicolors
 
 colorscheme monokai
 
@@ -62,15 +62,7 @@ nnoremap <NL> i<CR><ESC>
 " specific filetype settings
 autocmd Filetype html setlocal ts=2 sw=2 expandtab
 autocmd Filetype css setlocal ts=2 sw=2 expandtab
-autocmd Filetype javascript setlocal ts=2 sw=2 expandtab
 
 " airline settings
 let g:airline_theme='alduin'
 let g:airline_powerline_fonts = 1
-
-" vimtex settings
-let g:tex_flavor='latex'
-let g:vimtex_view_method='zathura'
-let g:vimtex_quickfix_mode=0
-set conceallevel=1
-let g:tex_conceal='abdmg'
